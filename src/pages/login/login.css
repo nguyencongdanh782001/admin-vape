@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.input {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.button {
+  padding: 10px 30px;
+}

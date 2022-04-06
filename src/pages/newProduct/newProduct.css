@@ -1,0 +1,125 @@
+.newProduct {
+  flex: 4;
+  padding-left: 3px;
+  padding-bottom: 20px;
+}
+
+.addProductForm {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+}
+.item-1{
+  display: flex;
+  /* gap: 10px; */
+  flex-wrap: wrap;
+}
+.item-2{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.item-3{
+  display: flex;
+  flex-direction: column;
+  /* gap: 20px; */
+}
+.item-3-wrapper{
+  display: flex;
+  margin-top: 10px;
+  /* gap: 20px; */
+  /* align-items: center; */
+}
+.item-2 > label {
+  color: gray;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.item-2 > input {
+  padding: 10px;
+}
+
+.addProductItem {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.addProductItem > label {
+  color: gray;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.addProductItem > input {
+  padding: 8px;
+  border:1px solid rgb(211, 211, 211);
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.addProductItem > input:focus {
+  border: 1px solid #2684ff;
+  outline: none;
+  box-shadow: 0 0 0 1px #2684ff;
+}
+.addProductItem > select {
+  padding: 10px;
+}
+
+.addProductButton {
+  margin-top: 10px;
+  padding: 15px 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: darkblue;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline;
+  width: 200px;
+  margin-left: 5px;
+}
+
+.displayImg {
+  position: relative;
+  height: 120px;
+  width: 180px;
+  margin-bottom: 15px;
+  border: 1px dashed black
+}
+
+.displayImg > img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.displayImg > .iconImg {
+  position: absolute;
+  padding: 6px;
+  border-radius: 50%;
+  background-color: #eeeeee;
+  opacity: 0.5;
+  z-index: 1;
+  right: 3px;
+  top: 3px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.displayImg > .iconImg:hover {
+  opacity: 0.8;
+}
+.ck-editor__editable{
+  height: 250px;
+}
